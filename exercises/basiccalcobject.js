@@ -34,7 +34,7 @@ class Calculator{
 		//takes in a number and stores it as one of the numbers to perform math on
 		//takes in 1 number
 		//checks if it is actually a number and if we have fewer than 2 numbers
-		if(isNaN(number)){
+		if(typeof number !== 'number'){
 			return false;
 		}
 		//if it is a number, and we have 2 or fewer numbers, store it
